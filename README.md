@@ -5,10 +5,9 @@ your Linux file manager (Nautilus/Nemo/Caja/...)
 
 ## Screenshots
 
-![screenshot1](assets/screenshot1.png)
-![screenshot2](assets/screenshot2.png)
-![screenshot3](assets/screenshot3.png)
-The first two use the border image: ![switch-border](assets/switch-border.png)
+[![screenshot](assets/screenshot.png)](assets/)
+
+This uses the border image, which is disabled by default. Click on the image to see additional ones.
 
 ## Prequisites
 
@@ -53,7 +52,7 @@ file manager settings and manual for additional information.
 You can create `$XDG_CONFIG_HOME/nro-thumbnailer.conf` (usually
 `$HOMR/.config/nro-thumbnailer.conf`) and define default options there:
 
-´´´ini
+```ini
 size=200
 border=true
 max-skip=25
