@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/vnd.nintendo.switch.executable">
+        <comment>Nintendo Switch Executable</comment>
+        <icon name="application-x-generic"/>
+        <glob pattern="*.nro"/>
+        <magic>
+            <match type="string" value="NRO0" offset="16"/>
+        </magic>
+    </mime-type>
+</mime-info>

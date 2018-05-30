@@ -1,0 +1,4 @@
+[Thumbnailer Entry]
+TryExec=nro-thumbnailer
+Exec=nro-thumbnailer -i %i -o %o -s %s
+MimeType=application/vnd.nintendo.switch.executable;

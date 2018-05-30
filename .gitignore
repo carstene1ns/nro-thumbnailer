@@ -1,0 +1,13 @@
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+.ninja_*
+.ninja_*
+*.ninja
+cmake_install.cmake
+install_manifest.txt
+
+nro-thumbnailer
+
+.gdb_history
