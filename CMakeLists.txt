@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.7)
 
 project(nro-thumbnailer VERSION 0.0.1 LANGUAGES CXX)
 
-list(APPEND CMAKE_MODULE_PATH CMakeModules)
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/CMakeModules)
 
 add_executable(nro-thumbnailer
 	src/CLI11.hpp
